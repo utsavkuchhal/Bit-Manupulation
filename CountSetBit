@@ -1,0 +1,15 @@
+
+public class gfg {
+
+	public static void main(String[] args) {
+		int n = 10;
+		int counter = 0;
+		while (n != 0) {
+			int rsbm = n & -n;
+			n -= rsbm;
+			counter++;
+		}
+		System.out.println(counter);
+	}
+
+}
